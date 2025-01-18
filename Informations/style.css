@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'BBB';
+    src : url('../fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.otf');
+}
+
+body {
+    background-color: #FBFCFA;
+    font-family: 'BBB';
+    display: flex;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 1em;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+}
+
+.img1{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+
+.img2{
+    position: absolute;
+    bottom: 45%;
+    left: 52%;
+}
+
+.img3{
+    position: absolute;
+    top: 45%;
+    right: 52%;
+}
+
+.img4{
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+}
+
+@media (max-width: 768px) {
+
+}
