@@ -193,17 +193,20 @@ a {
         position: absolute;
         top: 60%;
         right: 15%;
+        left: 13%;
     }
 
     .img2 {
         position: absolute;
         left: 13%;
+        right: 15%
         bottom: 4%;
     }   
 
     .img3 {
         position: absolute;
         top: 100%;
+        left: 13%;
         right: 15%;
     }
 }
