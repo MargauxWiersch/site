@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'BBB';
-    src: url('fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff2?v=2') format('woff2');
-    src: url('fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff?v=2') format('woff');
+    src: url('Fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff2') format('woff2');
+    src: url('Fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -197,7 +199,7 @@ a {
         position: absolute;
         left: 13%;
         bottom: 4%;
-    }
+    }   
 
     .img3 {
         position: absolute;
