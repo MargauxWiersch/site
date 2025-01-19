@@ -45,7 +45,6 @@ p {
 
 @media (max-width: 768px) {
 
-    
     h1 {
         margin-left: 0.5em;
         font-size: 2em;
@@ -53,26 +52,30 @@ p {
 
     .img1{
         position: absolute;
-        top: 10%;
-        right: 7%;
+        top: 15%;
+        right: 50%;
+        transform: translateX(50);
     }
 
     .img2{
         position: absolute;
-        bottom: 40%;
-        left: 7%;
+        bottom: 25%;
+        left: 50%;
+        transform: translateX(-50);
     }
 
     .img3{
         position: absolute;
-        top: 60%;
-        right: 7%;
+        top: 75%;
+        right: 50%;
+        transform: translateX(50);
     }
 
     .img4{
         position: absolute;
-        bottom: -10%;
-        left: 7%;
+        bottom: -35%;
+        left: 50%;
+        transform: translateX(-50);
     }
 
 }
