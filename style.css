@@ -193,7 +193,7 @@ a {
         position: absolute;
         top: 65%;
         right: 50%;
-        transform: translateX(-50%);
+        transform: translateX(50%);
     }
 
     .img2 {
@@ -207,6 +207,6 @@ a {
         position: absolute;
         top: 110%;
         right: 50%;
-        transform: translateX(-50%);
+        transform: translateX(50%);
     }
 }
