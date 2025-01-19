@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'BBB';
     src: url('fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff2') format('woff2');
+    src: url('fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff') format('woff');
 }
 
 body {
