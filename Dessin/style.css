@@ -54,28 +54,28 @@ p {
         position: absolute;
         top: 15%;
         right: 50%;
-        transform: translateX(50);
+        transform: translateX(50%);
     }
 
     .img2{
         position: absolute;
         bottom: 15%;
         left: 50%;
-        transform: translateX(-50);
+        transform: translateX(-50%);
     }
 
     .img3{
         position: absolute;
         top: 90%;
         right: 50%;
-        transform: translateX(50);
+        transform: translateX(50%);
     }
 
     .img4{
         position: absolute;
         bottom: -60%;
         left: 50%;
-        transform: translateX(-50);
+        transform: translateX(-50%);
     }
 
 }
