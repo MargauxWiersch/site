@@ -58,21 +58,21 @@ p {
 
     .img2{
         position: absolute;
-        bottom: 25%;
+        bottom: 15%;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .img3{
         position: absolute;
-        top: 75%;
+        top: 90%;
         right: 50%;
         transform: translateX(50%);
     }
 
     .img4{
         position: absolute;
-        bottom: -35%;
+        bottom: -60%;
         left: 50%;
         transform: translateX(-50%);
     }
