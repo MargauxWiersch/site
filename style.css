@@ -112,15 +112,15 @@ a {
 @media (max-width: 768px) {
 
     h1 {
-        margin: 1em;
+        top: 5em;
         font-size: 1em;
     }
 
     img {
-        width: 75%;
+        width: 80%;
     }
 
     .nav-list {
-        width: 50%;
+        width: 85%;
     }
 }
