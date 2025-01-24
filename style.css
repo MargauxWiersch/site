@@ -15,55 +15,21 @@ body {
 }
 
 h1 {
-    font-size: 3em;
-}
-
-.ordi {
-    display: flex;
-}
-
-.handy {
-    display: none;
-}
-
-.boite {
+    text-align: center;
+    font-size: 1.5em;
     position: absolute;
+    top: 1em;
     left: 50%;
-    top: 50%;
+    transform: translateX(-50%);
+    margin: 0;
 }
 
-.deuxieme_page {
+img {
     position: absolute;
-    top: 100%;
-    height: 100%;
-}
-
-.columns {
-    display: grid;
-    border: 0;
-    padding: 0;
-    grid-template-columns: 25vw 75vw;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.column_gauche, .column_droite {
-    display: flex;
-    flex-direction: column;
-}
-
-.column_gauche {
-    background-color: #D3D3D3;
-    text-align: left;
-}
-
-.boitebis {
-    display: flex;
-    padding-top: 4em;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 100%;
-    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    align-self: center;
+    width: 50%;
 }
 
 a {
@@ -73,67 +39,40 @@ a {
     padding: 0;
 }
 
-.lien {
-    font-size: 1.5em;
-    flex: 1 1 100%;
-    margin: 0 4em;
-    text-decoration: underline;
-}
-
-.column_droite {
-    height: 100vh;
-}
-
-.img1 {
+.contact {
     position: absolute;
-    top: 8%;
-    right: 8%;
-}
-
-.img2 {
-    position: absolute;
-    bottom: 45%;
-    left: 52.5%;
-}
-
-.img3 {
-    position: absolute;
-    top: 65%;
-    right: 52.5%;
-}
-
-.bigspace {
-    height: 10em;
+    top: 1.5em;
+    font-size: 1em;
+    right: 1.5em;
 }
 
 /* Navbar and mobile menu */
 .navbar {
-    position: relative;
-    z-index: 10; /* Ensure navbar is above other elements */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    z-index: 30;
 }
 
 .menu-toggle {
-    display: none;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between; /* Space between the bars */
     cursor: pointer;
-    width: 30px;
-    height: 20px;
-    z-index: 30; /* Ensure the button is above the menu */
+    width: 30px; /* Width of the menu icon */
+    height: 20px; /* Height of the total icon */
 }
 
 .menu-toggle span {
     display: block;
-    background-color: #fff;
-    height: 3px;
-    width: 100%;
-    margin: 4px 0;
+    background-color: #333; /* Dark color for the bars */
+    height: 3px; /* Height of each bar */
+    width: 100%; /* Full width of the button */
+    border-radius: 3px; /* Rounded corners for a modern look */
+    transition: all 0.3s ease; /* Smooth transition for animations */
 }
 
+/* Navigation menu */
 .nav-list {
     list-style: none;
     display: none; /* Hidden by default */
@@ -141,9 +80,9 @@ a {
     position: fixed; /* Superimpose menu over page */
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgba(51, 51, 51, 0.95); /* Dark semi-transparent background */
+    width: 25%; /* Adjust the menu width */
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.8); /* Dark semi-transparent background */
     padding: 2rem 0; /* Internal padding for links */
     z-index: 20; /* Place above content */
 }
@@ -163,16 +102,14 @@ a {
     font-size: 1.5rem;
 }
 
+/* Optional: Add hover effect for the menu toggle */
+.menu-toggle:hover span {
+    background-color: #555; /* Slightly lighter color */
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
-
-    .ordi {
-        display: none;
-    }
-
-    .handy {
-        display: flex;
-    }
 
     .boite {
         position: absolute;
