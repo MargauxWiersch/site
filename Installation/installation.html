@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Installation</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/png" href="../logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="grid">
-        <div class="grid-item">
-            <h1>Installations :</h1>
+    <header>
+
+    </header>
+
+    <h1>Installation</h1>
+
+    <div class="gallery">
+        <div class="row-1">
+            <img src="assets/1.jpg" onclick="openLightbox(this)">
+            <img src="assets/1 bis.jpg" onclick="openLightbox(this)">
         </div>
+        <p> Les mouettes<br>
+            Sculpture plâtre et cartons 50 x 35 cm et vidéo projetée 35 sec. 2025</p>
+        <div class="row-2">
+            <img src="assets/2.jpg" class="imim" onclick="openLightbox(this)">
+            <img src="assets/2 bis.jpg" class="imim" onclick="openLightbox(this)">
+            <img src="assets/2 bis bis .png" class="imim" onclick="openLightbox(this)">
+            <img src="assets/2 bis. is bis .png" class="imim"   onclick="openLightbox(this)">
+        </div>
+        <p>Je me souviendrais du bruit des vagues<br>
+            Réalisation avec Léna Kalisa. 2 télévisons cathodiques avec vidéo (2min et 4min)
+            + extrait de texte mis en page réalisé avec ia
+            + Arrêt sur image d’un gif<br>
+            Nous avons cherché à créer , avec notre imaginaire et les outils de tou󴟠, nos souvenirs et archives
+            familiales. À défaut d’avoir des photos ou des histoires, nous avons utilisé des images libres de droit dont
+            vous avons travaillé la picturalité pour que le glitch devienne un espace de création de souvenirs. Nous avons
+            également demandé à un intelligence artificielle de nous raconter ses souvenirs d’enfances. La première
+            télévision cathodique diffuse les vidéos d’images retravaillés, la seconde, le texte écrit avec l’IA</p>
+        <div class="row-3">
+            <img src="assets/4.jpg" onclick="openLightbox(this)">
+            <p><br><br>le corps suspendu<br>Robe tissu avec marques encre noires et spot lumineux, dimensions variables. 2021</p>
+        </div>
+
+        <div class="row-4">
+            <img src="assets/5.jpg" onclick="openLightbox(this)">
+            <p><br><br>l’empreinte d’Élisa <br> Tissu blanc avec marques encre noires et télévisons cathodiques, 2 x 1,50m (5min). 2022</p>
+        </div>
+
     </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Agrandissement">
+    </div>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").classList.add("show");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").classList.remove("show");
+        }
+    </script>
 
 </body>
 </html>
