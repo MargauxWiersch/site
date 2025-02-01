@@ -8,43 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Dessin</h1>
 
-    <div class="grid">
-        <div class="grid-item">
-            <h1>Dessins :</h1>
-        </div>
-        <div class="grid-item">
-            <a href="../index.html">
-                <img src="../accueil.png" class="bouton" alt="Retour">
-            </a>
-        </div>
-        <div class="grid-item">
-            <img src="assets/dessin2.jpg">
-            <p>Description</p>
-        </div>
-        <div class="grid-item">
-            <img src="assets/dessin3.jpg">
-            <p>Description</p>
-        </div>
+    <div class="gallery">
 
-        <div class="grid-item">
-            <img src="assets/dessin1.jpg">
-            <p>Description</p>
-        </div>
-        <div class="grid-item">
-            <img src="assets/dessin5.jpg">
-            <p>Description</p>
-        </div>
+        <img src="assets/1.jpg" onclick="openLightbox(this)">
+        <img src="assets/2.jpg" onclick="openLightbox(this)">
+        <img src="assets/3.png" onclick="openLightbox(this)">
+        <img src="assets/4.png" onclick="openLightbox(this)">
+        <img src="assets/5.jpg" onclick="openLightbox(this)">
+        <img src="assets/6.jpg" onclick="openLightbox(this)">
+        <img src="assets/7.jpg" onclick="openLightbox(this)">
+        <img src="assets/8.jpg" onclick="openLightbox(this)">
+        <img src="assets/9.jpg" onclick="openLightbox(this)">
+        <img src="assets/10.jpg" onclick="openLightbox(this)">
+        <img src="assets/11.jpg" onclick="openLightbox(this)">
+        <img src="assets/12.jpg" onclick="openLightbox(this)">
+        <img src="assets/13.jpg" onclick="openLightbox(this)">
+        <img src="assets/14.jpg" onclick="openLightbox(this)">
+        <img src="assets/15.jpg" onclick="openLightbox(this)">
+        <img src="assets/16.jpg" onclick="openLightbox(this)">
+        <img src="assets/17.jpg" onclick="openLightbox(this)">
+        
+    </div>      
 
-        <div class="grid-item">
-            <img src="assets/dessin6.png">
-            <p>Description</p>
-        </div>
-        <div class="grid-item">
-            <img src="assets/dessin7.png">
-            <p>Description</p>
-        </div>
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Agrandissement">
     </div>
+    
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").classList.add("show");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").classList.remove("show");
+        }
+    </script>
 
 </body>
 </html>

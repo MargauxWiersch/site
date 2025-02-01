@@ -9,11 +9,116 @@
 </head>
 <body>
 
-    <div class="grid">
-        <div class="grid-item">
-            <h1>Installations :</h1>
+    <div class="ordi">
+
+        <header>
+
+        </header>
+    
+        <h1>Photo / Montage</h1>
+    
+        <div class="gallery">
+            <div class="row-1">
+                <img src="assets/1_0.png" onclick="openLightbox(this)">
+                <img src="assets/2_0.png" onclick="openLightbox(this)">
+            </div>
+            <p> mythologies modernes, Scan de sac plastiques et objets divers, 2025</p>
+            <div class="row-2">
+                <img src="assets/1_1.png" onclick="openLightbox(this)">
+                <img src="assets/2_1.png" onclick="openLightbox(this)">
+            </div>
+            <p>MiniZine*2, Format impression A3 recto verso, 2025</p>
+            <div class="row-3">
+                <img src="assets/1_2.png" onclick="openLightbox(this)">
+                <img src="assets/2_2.png" onclick="openLightbox(this)">
+            </div>
+            <p>MiniZine*1, Format impression A4 recto verso, 2024</p>
+            <div class="row-4">
+                <div class="boite">
+                    <img src="assets/3.jpg" onclick="openLightbox(this)">
+                    <p>fleurs de consolations, Scan, 2024</p>
+                </div>
+                <div class="boite">
+                    <img src="assets/4.png" onclick="openLightbox(this)">
+                    <p>I was once…, Photomontage, circa 2007 et 2023</p>
+                </div>
+                <div class="boite">
+                    <img src="assets/5.png" onclick="openLightbox(this)">
+                    <p>sans noms, Scan, 2022</p>
+                </div>
+                <div class="boite">
+                    <img src="assets/6.png" onclick="openLightbox(this)">
+                    <p>sans nom, Scan et photomontage, 2022</p>
+                </div>
+            </div>
+            <div class="row-5">
+                <img class="imim" src="assets/serie 7/7 copie.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/serie 7/17 copie.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/serie 7/32 copie.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/serie 7/40 copie.jpg" onclick="openLightbox(this)">
+            </div>
+            <p>J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être. <br>Série 3 photos numériques, 2022</p>
+    
+        </div>
+    
+    </div>
+
+    <div class="handy">
+        <h1>Photo / Montage</h1>
+
+        <div class="gallery">
+
+            <img src="assets/1_0.png" onclick="openLightbox(this)">
+            <img src="assets/2_0.png" onclick="openLightbox(this)">
+          
+            <p> mythologies modernes, Scan de sac plastiques et objets divers, 2025</p>
+           
+            <img src="assets/1_1.png" onclick="openLightbox(this)">
+            <img src="assets/2_1.png" onclick="openLightbox(this)">
+          
+            <p>MiniZine*2, Format impression A3 recto verso, 2025</p>
+          
+            <img src="assets/1_2.png" onclick="openLightbox(this)">
+            <img src="assets/2_2.png" onclick="openLightbox(this)">
+         
+            <p>MiniZine*1, Format impression A4 recto verso, 2024</p>
+         
+            <img src="assets/3.jpg" onclick="openLightbox(this)">
+            <p>fleurs de consolations, Scan, 2024</p>
+    
+            <img src="assets/4.png" onclick="openLightbox(this)">
+            <p>I was once…, Photomontage, circa 2007 et 2023</p>
+        
+            <img src="assets/5.png" onclick="openLightbox(this)">
+            <p>sans noms, Scan, 2022</p>
+    
+            <img src="assets/6.png" onclick="openLightbox(this)">
+            <p>sans nom, Scan et photomontage, 2022</p>
+
+            <img class="imim" src="assets/serie 7/7 copie.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/serie 7/17 copie.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/serie 7/32 copie.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/serie 7/40 copie.jpg" onclick="openLightbox(this)">
+           
+            <p>J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être. <br>Série 3 photos numériques, 2022</p>
         </div>
     </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Agrandissement">
+    </div>
+    
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").classList.add("show");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").classList.remove("show");
+        }
+    </script>
 
 </body>
 </html>
