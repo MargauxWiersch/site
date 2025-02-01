@@ -3,6 +3,14 @@
     src : url('../Fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff2');
 }
 
+.ordi{
+    display: block;
+}
+
+.handy{
+    display: none;
+}
+
 body {
     background-color: #FBFCFA;
     font-family: 'BBB';
@@ -21,7 +29,7 @@ h1 {
 }
 
 p {
-    font-size: 0.5em;
+    font-size: 0.55em;
     text-align: left;
     color: #BDBDBD;
 }
@@ -32,18 +40,17 @@ p {
     width: 185vh;
 }
 
-.row-1, .row-2, .row-3, .row-4 {
+.row-1, .row-2, .row-3 {
     margin-top: 2em;
 }
 
-.row-4{
+.row-3{
     margin-bottom: 2em;
 }
 
 .row-1 { display: flex; grid-template-columns: repeat(2, 1fr); gap: 1vw; }
 .row-2 { display: flex; grid-template-columns: repeat(4, 1fr); gap: 1vw; }
-.row-3 { display: flex; grid-template-columns: repeat(2, 1fr); gap: 1vw; }
-.row-4 { display: flex; grid-template-columns: repeat(2, 1fr); gap: 1vw; }
+.row-3 { display: flex; grid-template-columns: repeat(4, 1fr); gap: 1vw; }
 
 .gallery .imim {
     max-width: 80%;
@@ -101,5 +108,38 @@ p {
 
 
 @media (max-width: 768px) {
+
+    body {
+        display: flex;
+    }
+
+    .ordi{
+        display: none;
+    }
+
+    .handy{
+        display: block;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    p {
+        padding: 0.5em;
+    }
+
+    .gallery {
+        margin-top: 2em;
+        width: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .gallery img{
+        width: 70%;
+    }
 
 }

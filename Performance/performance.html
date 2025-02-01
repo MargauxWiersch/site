@@ -9,11 +9,91 @@
 </head>
 <body>
 
-    <div class="grid">
-        <div class="grid-item">
-            <h1>Performances :</h1>
+    <div class="ordi">
+
+        <header>
+
+        </header>
+    
+        <h1>Performance</h1>
+    
+        <div class="gallery">
+            <div class="row-1">
+                <img src="assets/1.JPG" onclick="openLightbox(this)"> 
+                <p> <br><br>avec perforeuse Cassiopée Ferrand, 2024</p>
+            </div>
+            <div class="row-2">
+                <img class="imim" src="assets/2_1.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/2_2.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/2_3.jpg" onclick="openLightbox(this)">
+            </div>
+            <p>2022</p>
+            <div class="row-3">
+                <img class="imim" src="assets/3_1.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/3_2.jpg" onclick="openLightbox(this)">
+                <img class="imim" src="assets/3_3.jpg" onclick="openLightbox(this)">
+            </div>
+            <div class="row-4">
+                <img class="imim" src="assets/3_4.jpg" onclick="closeLightbox(this)">
+                <img class="imim" src="assets/3_5.jpg" onclick="closeLightbox(this)">
+                <img class="imim" src="assets/3_6.jpg" onclick="closeLightbox(this)">
+            </div>
+            <p>photo de Léna Kalisa, 2021<br>Lien: https://youtu.be/yntjLkb3xww?si=c2M2KAGjz1n0Jhcu</p>
+            <div class="row-5">
+                <img src="assets/4.JPG" onclick="closeLightbox(this)">
+                <p><br><br>avec Andréa Mais, 2020<br>Lien : https://www.youtube.com/watch?v=w0Xber6bgHk&t=3s</p>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <div class="handy">
+        <h1>Performance</h1>
+
+        <div class="gallery">
+
+            <img src="assets/1.JPG" onclick="openLightbox(this)"> 
+            <p> avec perforeuse Cassiopée Ferrand, 2024</p>
+        
+            <img class="imim" src="assets/2_1.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/2_2.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/2_3.jpg" onclick="openLightbox(this)">
+           
+            <p>2022</p>
+        
+            <img class="imim" src="assets/3_1.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/3_2.jpg" onclick="openLightbox(this)">
+            <img class="imim" src="assets/3_3.jpg" onclick="openLightbox(this)">
+        
+            <img class="imim" src="assets/3_4.jpg" onclick="closeLightbox(this)">
+            <img class="imim" src="assets/3_5.jpg" onclick="closeLightbox(this)">
+            <img class="imim" src="assets/3_6.jpg" onclick="closeLightbox(this)">
+           
+            <p>photo de Léna Kalisa, 2021<br>Lien: https://youtu.be/yntjLkb3xww?si=c2M2KAGjz1n0Jhcu</p>
+
+            <img src="assets/4.JPG" onclick="closeLightbox(this)">
+            <p>avec Andréa Mais, 2020<br>Lien : https://www.youtube.com/watch?v=w0Xber6bgHk&t=3s</p>
+
+    
         </div>
     </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Agrandissement">
+    </div>
+    
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").classList.add("show");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").classList.remove("show");
+        }
+    </script>
 
 </body>
 </html>
