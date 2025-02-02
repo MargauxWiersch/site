@@ -45,7 +45,7 @@ p {
 .gallery {
     display: grid;
     gap: 1vw; 
-    width: 185vh;
+    max-width: 100%;
     align-items: center;
 }
 
