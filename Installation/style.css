@@ -52,10 +52,10 @@ p {
 }
 
 .gallery {
-    margin-left: 1em;
+    margin-left: 2em;
     display: grid;
     gap: 1vw; 
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .row-1, .row-2, .row-3 {
