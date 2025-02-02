@@ -113,7 +113,6 @@ a {
 }
 
 
-
 @media (max-width: 768px) {
 
     body {
@@ -144,9 +143,12 @@ a {
         flex-direction: column;
     }
 
+    a {
+        color: #BDBDBD;
+        font-size: 0.5em;
+    }
 
     .gallery img{
         width: 70%;
     }
-
 }
