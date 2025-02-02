@@ -4,6 +4,7 @@
 }
 
 .ordi{
+    width: 100%;
     display: block;
 }
 
@@ -160,6 +161,7 @@ a {
 
     .gallery {
         margin-top: 2em;
+        margin: 0;
         width: auto;
         display: flex;
         align-items: center;

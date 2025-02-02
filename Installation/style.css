@@ -148,6 +148,7 @@ p {
     }
 
     .gallery {
+        margin: 0;
         margin-top: 2em;
         width: auto;
         display: flex;
