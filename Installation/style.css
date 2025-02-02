@@ -31,13 +31,13 @@ h1 {
 p {
     margin-top: 0;
     font-size: 0.55em;
-    text-align: center;
+    text-align: left;
     color: #BDBDBD;
 }
 
 .it {
     font-size: 0.55em;
-    text-align: center;
+    text-align: left;
     color: #BDBDBD;
     font-style: italic;
 }
