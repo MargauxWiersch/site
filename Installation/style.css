@@ -52,6 +52,7 @@ p {
 }
 
 .gallery {
+    margin-left: 1em;
     display: grid;
     gap: 1vw; 
     max-width: 90%;
