@@ -150,6 +150,10 @@ p {
         display: block;
     }
 
+    .bouton {
+        width: 10%;
+    }
+
     h1 {
         font-size: 1em;
     }
