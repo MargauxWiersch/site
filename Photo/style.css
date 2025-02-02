@@ -43,10 +43,11 @@ p {
 }
 
 .gallery {
+    margin-left: 2em;
     display: grid;
     gap: 1vw; 
-    max-width: 100%;
     align-items: center;
+    max-width: 100%;
 }
 
 .row-1, .row-2, .row-3, .row-4, .row-5 {
