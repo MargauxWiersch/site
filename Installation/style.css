@@ -29,9 +29,26 @@ h1 {
 }
 
 p {
+    margin-top: 0;
     font-size: 0.55em;
-    text-align: left;
+    text-align: center;
     color: #BDBDBD;
+}
+
+.it {
+    font-size: 0.55em;
+    text-align: center;
+    color: #BDBDBD;
+    font-style: italic;
+}
+
+.it p{
+    font-style: normal;
+    font-size: 100%;
+}
+
+.ptitspace {
+    height: 2em;
 }
 
 .gallery {
