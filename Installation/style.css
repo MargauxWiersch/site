@@ -54,7 +54,7 @@ p {
 .gallery {
     display: grid;
     gap: 1vw; 
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .row-1, .row-2, .row-3 {
