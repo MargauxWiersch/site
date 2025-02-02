@@ -146,6 +146,7 @@ p {
         text-align: center;
         color: #BDBDBD;
         font-style: italic;
+        padding: 0.5em;
     }
 
     .gallery {

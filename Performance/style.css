@@ -48,7 +48,7 @@ p {
 }
 
 .ptitspace {
-    height: 2em;
+    height: 4em;
 }
 
 .gallery {
@@ -152,17 +152,17 @@ a {
         padding: 0.5em;
     }
 
+    .it p {
+        text-align: center;
+        padding: 0.5em;
+    }
+
     .gallery {
         margin-top: 2em;
         width: auto;
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-
-    a {
-        color: #BDBDBD;
-        font-size: 0.5em;
     }
 
     .gallery img{
