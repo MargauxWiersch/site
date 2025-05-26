@@ -39,6 +39,10 @@ a {
     padding: 0;
 }
 
+.espace {
+    color: #FBFCFA;
+}
+
 .contact {
     position: absolute;
     top: 1.5em;
