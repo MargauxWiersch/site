@@ -50,7 +50,6 @@ a {
     right: 1.5em;
 }
 
-/* Navbar and mobile menu */
 .navbar {
     position: absolute;
     top: 1.5em;
@@ -61,43 +60,42 @@ a {
 .menu-toggle {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space between the bars */
+    justify-content: space-between;
     cursor: pointer;
-    width: 30px; /* Width of the menu icon */
-    height: 20px; /* Height of the total icon */
+    width: 30px; 
+    height: 20px;
 }
 
 .menu-toggle span {
     display: block;
-    background-color: #333; /* Dark color for the bars */
-    height: 3px; /* Height of each bar */
-    width: 100%; /* Full width of the button */
-    border-radius: 3px; /* Rounded corners for a modern look */
-    transition: all 0.3s ease; /* Smooth transition for animations */
+    background-color: #333; 
+    height: 3px; 
+    width: 100%; 
+    border-radius: 3px; 
+    transition: all 0.3s ease; 
 }
 
-/* Navigation menu */
 .nav-list {
     list-style: none;
-    display: none; /* Hidden by default */
+    display: none;
     flex-direction: column;
-    position: fixed; /* Superimpose menu over page */
+    position: fixed; 
     top: 3%;
     left: 0;
-    width: 25%; /* Adjust the menu width */
+    width: 25%; 
     height: 100%;
-    background-color: rgba(51, 51, 51, 0.8); /* Dark semi-transparent background */
-    padding: 2rem 0; /* Internal padding for links */
-    z-index: 20; /* Place above content */
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 2rem 0;
+    z-index: 20; 
 }
 
 .nav-list.active {
-    display: flex; /* Show menu when active */
+    display: flex;
 }
 
 .nav-list li {
     margin: 1rem 0;
-    text-align: center; /* Center links */
+    text-align: center; 
 }
 
 .nav-list li a {
@@ -106,13 +104,10 @@ a {
     font-size: 1.5rem;
 }
 
-/* Optional: Add hover effect for the menu toggle */
 .menu-toggle:hover span {
-    background-color: #555; /* Slightly lighter color */
+    background-color: #555; 
 }
 
-
-/* Responsive Design */
 @media (max-width: 768px) {
 
     h1 {
