@@ -18,22 +18,57 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    text-align: center;
-    font-size: 1.5em;
-    position: absolute;
-    top: 1em;
-    left: 50%;
-    transform: translateX(-50%);
+.titre {
+    height: 100dvh;
+    min-height: 100dvh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nom {
+    text-align: right;
+    padding: 4em 7em 0 0;
     margin: 0;
 }
 
-img {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    align-self: center;
-    width: 50%;
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.contenu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 5em 5em 5em;
+    min-height: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 65%;
+}
+
+.image img {
+    width: 75%;
+    height: auto;
+    display: block;
+}
+
+.fleche {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.fleche img {
+    width: 30%;
+    height: auto;
 }
 
 a {
@@ -41,17 +76,6 @@ a {
     text-decoration: none;
     text-align: left;
     padding: 0;
-}
-
-.espace {
-    color: #FBFCFA;
-}
-
-.contact {
-    position: absolute;
-    top: 1.5em;
-    font-size: 1em;
-    right: 1.5em;
 }
 
 .navbar {
@@ -112,22 +136,228 @@ a {
     background-color: #555; 
 }
 
+.defile {
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* INFORMATIONS À GAUCHE */
+
+.pres {
+    width: 45%;
+    padding: 5em;
+    margin-left: 2em;
+    box-sizing: border-box;
+}
+
+.infos h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.infos p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+#lien-projet {
+    display: inline-block;
+    margin-top: 1.5em;
+    font-size: 1em;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* CARROUSEL À DROITE */
+
+.carrousel {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.carrousel-window {
+    width: 100%;
+    height: 80dvh;
+    overflow: hidden;
+}
+
+.carrousel-track {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+    transition: transform 0.8s ease;
+}
+
+.carte {
+    flex: 0 0 calc((80dvh - 50px) / 3);
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background: transparent;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.carte.active {
+    opacity: 1;
+}
+
+.carte img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: calc((80dvh - 50px) / 3);
+    object-fit: contain;
+}
+
+
 @media (max-width: 768px) {
 
+    body {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    /* PAGE D'ACCUEIL */
+
+    .titre {
+        min-height: 100svh;
+        height: 100svh;
+    }
+
+    .nom {
+        padding: 5em 1.5em 0 0;
+    }
+
     h1 {
-        top: 5em;
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
-    .contact {
-        font-size: 0.5em;
+    .contenu {
+        padding: 0 1.5em 3em 1.5em;
+        align-items: flex-end;
     }
 
-    img {
-        width: 80%;
+    .image {
+        width: 75%;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fleche {
+        width: 20%;
+    }
+
+    .fleche img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* MENU */
+
+    .navbar {
+        top: 1.5em;
+        left: 1em;
     }
 
     .nav-list {
         width: 85%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-list li a {
+        font-size: 1.2rem;
+    }
+
+    /* SECTION PROJETS */
+
+    .defile {
+        min-height: 100svh;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em 0;
+    }
+
+    /* INFORMATIONS */
+
+    .pres {
+        width: 100%;
+        padding: 2em 1.5em;
+        margin: 0;
+    }
+
+    .infos h2 {
+        font-size: 1.5em;
+        margin-bottom: 0.8em;
+    }
+
+    .infos p {
+        font-size: 0.85em;
+        line-height: 1.5;
+    }
+
+    #image {
+        max-width: 100%;
+        width: auto !important;
+        height: auto;
+        max-height: 30vh;
+        object-fit: contain;
+    }
+
+    #lien-projet {
+        font-size: 0.85em;
+    }
+
+    /* CARROUSEL */
+
+    .carrousel {
+        width: 100%;
+        height: auto;
+        padding: 0 1.5em;
+        justify-content: center;
+    }
+
+    .carrousel-window {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .carrousel-track {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .carte {
+        width: 90%;
+        flex: 0 0 calc((55vh - 30px) / 3);
+        justify-content: center;
+    }
+
+    .carte img {
+        max-width: 100%;
+        max-height: calc((55vh - 30px) / 3);
+        width: auto;
+        height: auto;
+        object-fit: contain;
     }
 }

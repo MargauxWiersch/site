@@ -7,6 +7,7 @@
     <title>Margaux Wiersch</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <nav class="navbar"> 
@@ -16,25 +17,64 @@
             <span class="bar"></span> 
         </div> 
         <ul class="nav-list"> 
-            <li><a href="Installation/installation.html">Installation</a></li> 
-            <li><a href="Performance/performance.html">Performance</a></li> 
-            <li><a href="Photo/photo.html">Photo / Montage</a></li> 
-            <li><a href="Dessin/dessin.html">Dessin</a></li> 
+            <li><a href="Installation/">Installation</a></li> 
+            <li><a href="Performance/">Performance</a></li> 
+            <li><a href="Photo/">Photo / Montage</a></li> 
+            <li><a href="Dessin/">Dessin</a></li> 
         </ul> 
     </nav>
 
-    <div class="contact">
-        <ul>
-            <a href="book.pdf"> Book</a>
-            <a href="Book/book.html"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            <a href="mailto:marg0xw@gmail.com"> Contact</a>
-        </ul>
-        
+    <div class="titre">
+        <div class="nom">
+            <h1>MARGAUX WIERSCH</h1>
+        </div>
+
+        <div class="contenu">
+            <div class="image">
+                <img src="accueil.png" alt="Image d'accueil">
+            </div>
+
+            <div class="fleche">
+                <img src="fleche-bas.png" alt="Défiler vers le bas">
+            </div>
+        </div>
     </div>
 
-    <h1>Margaux Wiersch</h1>
-    
-    <img src="accueil.png" width="250">  
+    <div class="defile">
+
+        <div class="pres">
+
+            <div class="infos">
+                <h2 id="titre-projet">Sélectionner un projet</h2>
+
+                <p id="description"></p>
+
+                <p id="date"></p>
+
+                <p id="technique"></p>
+
+                <img id="image" src="" alt="Image du projet" style="width: 15em">
+
+                <br>
+
+                <a id="lien-projet" href="#" target="_blank" rel="noopener noreferrer">
+                    Voir le projet →
+                </a>
+            </div>
+
+        </div>
+
+        <div class="carrousel">
+
+            <div class="carrousel-window">
+                <div class="carrousel-track" id="carrousel-track">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 
     <script src="script.js"></script>
 </body>

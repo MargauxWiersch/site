@@ -1,0 +1,402 @@
+[
+    {
+        "titre": "Projection sur corps",
+        "image": "Performance/assets/1.JPG",
+        "description": "Installation préformée, vidéo projetée (4min32), 2023. Avec la participation de la performeuse Cassiopée Ferrand.",
+        "date": "2023",
+        "technique": "Installation, vidéo projetée",
+        "lien": "Performance/index.html#projection-sur-corps"
+    },
+    {
+        "titre": "Sans nom",
+        "image": "Performance/assets/2_1.jpg",
+        "description": "Performance, extrait de la captation de la performance, série de 3 photographies numériques.",
+        "date": "2022",
+        "technique": "Performance, photographie numérique",
+        "lien": "Performance/index.html#sans-nom"
+    },
+    {
+        "titre": "Sans nom",
+        "image": "Performance/assets/2_2.jpg",
+        "description": "Performance, extrait de la captation de la performance, série de 3 photographies numériques.",
+        "date": "2022",
+        "technique": "Performance, photographie numérique",
+        "lien": "Performance/index.html#sans-nom"
+    },
+    {
+        "titre": "Sans nom",
+        "image": "Performance/assets/2_3.jpg",
+        "description": "Performance, extrait de la captation de la performance, série de 3 photographies numériques.",
+        "date": "2022",
+        "technique": "Performance, photographie numérique",
+        "lien": "Performance/index.html#sans-nom"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_1.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_2.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_3.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_4.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_5.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "La fracture",
+        "image": "Performance/assets/3_6.jpg",
+        "description": "6 photographies numériques extraites de la vidéo La fracture (7min27).",
+        "date": "2021",
+        "technique": "Photographie numérique, vidéo",
+        "lien": "Performance/index.html#la-fracture"
+    },
+    {
+        "titre": "Performance",
+        "image": "Performance/assets/4.JPG",
+        "description": "Performance avec Andrea Mais, captation vidéo 8min02.",
+        "date": "2020",
+        "technique": "Performance, vidéo",
+        "lien": "Performance/index.html#performance"
+    },
+    {
+        "titre": "Mythologies modernes",
+        "image": "Photo/assets/1_0.png",
+        "description": "Scan de sacs plastiques et objets divers.",
+        "date": "2025",
+        "technique": "Scan",
+        "lien": "Photo/index.html#mythologies-modernes"
+    },
+    {
+        "titre": "Mythologies modernes",
+        "image": "Photo/assets/2_0.png",
+        "description": "Scan de sacs plastiques et objets divers.",
+        "date": "2025",
+        "technique": "Scan",
+        "lien": "Photo/index.html#mythologies-modernes"
+    },
+    {
+        "titre": "MiniZine*2",
+        "image": "Photo/assets/1_1.png",
+        "description": "Format impression A3 recto verso.",
+        "date": "2025",
+        "technique": "Édition, impression",
+        "lien": "Photo/index.html#minizine-2"
+    },
+    {
+        "titre": "MiniZine*2",
+        "image": "Photo/assets/2_1.png",
+        "description": "Format impression A3 recto verso.",
+        "date": "2025",
+        "technique": "Édition, impression",
+        "lien": "Photo/index.html#minizine-2"
+    },
+    {
+        "titre": "MiniZine*1",
+        "image": "Photo/assets/1_2.png",
+        "description": "Format impression A4 recto verso.",
+        "date": "2024",
+        "technique": "Édition, impression",
+        "lien": "Photo/index.html#minizine-1"
+    },
+    {
+        "titre": "MiniZine*1",
+        "image": "Photo/assets/2_2.png",
+        "description": "Format impression A4 recto verso.",
+        "date": "2024",
+        "technique": "Édition, impression",
+        "lien": "Photo/index.html#minizine-1"
+    },
+    {
+        "titre": "Fleurs de consolations",
+        "image": "Photo/assets/3.jpg",
+        "description": "Scan.",
+        "date": "2024",
+        "technique": "Scan",
+        "lien": "Photo/index.html#fleurs-de-consolations"
+    },
+    {
+        "titre": "I was one...",
+        "image": "Photo/assets/4.png",
+        "description": "Photomontage, circa 2007 et 2023.",
+        "date": "2023",
+        "technique": "Photomontage",
+        "lien": "Photo/index.html#i-was-one"
+    },
+    {
+        "titre": "J'ai laissé des affaires traînées chez toi",
+        "image": "Photo/assets/5.png",
+        "description": "Scan.",
+        "date": "2022",
+        "technique": "Scan",
+        "lien": "Photo/index.html#affaires-trainees"
+    },
+    {
+        "titre": "Sans nom",
+        "image": "Photo/assets/6.png",
+        "description": "Scan et photomontage.",
+        "date": "2022",
+        "technique": "Scan, photomontage",
+        "lien": "Photo/index.html#sans-nom"
+    },
+    {
+        "titre": "J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être.",
+        "image": "Photo/assets/serie 7/7 copie.jpg",
+        "description": "Série de 4 photographies numériques.",
+        "date": "2022",
+        "technique": "Photographie numérique",
+        "lien": "Photo/index.html#serie-du-lac"
+    },
+    {
+        "titre": "J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être.",
+        "image": "Photo/assets/serie 7/17 copie.jpg",
+        "description": "Série de 4 photographies numériques.",
+        "date": "2022",
+        "technique": "Photographie numérique",
+        "lien": "Photo/index.html#serie-du-lac"
+    },
+    {
+        "titre": "J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être.",
+        "image": "Photo/assets/serie 7/32 copie.jpg",
+        "description": "Série de 4 photographies numériques.",
+        "date": "2022",
+        "technique": "Photographie numérique",
+        "lien": "Photo/index.html#serie-du-lac"
+    },
+    {
+        "titre": "J’ai donné mon corps au lac puisque j’ai tout oublié lui se souviendra peut être.",
+        "image": "Photo/assets/serie 7/40 copie.jpg",
+        "description": "Série de 4 photographies numériques.",
+        "date": "2022",
+        "technique": "Photographie numérique",
+        "lien": "Photo/index.html#serie-du-lac"
+    },
+    {
+    "image": "Installation/assets/1.jpg",
+    "titre": "Les mouettes",
+    "description": "Sculpture en plâtre et cartons, 50 × 35 cm, et vidéo projetée de 35 secondes. 2025",
+    "date": "2025",
+    "technique": "Sculpture et vidéo",
+    "lien": "Installation/index.html#les-mouettes"
+    },
+    {
+    "image": "Installation/assets/1 bis.jpg",
+    "titre": "Les mouettes",
+    "description": "Sculpture en plâtre et cartons, 50 × 35 cm, et vidéo projetée de 35 secondes. 2025",
+    "date": "2025",
+    "technique": "Sculpture et vidéo",
+    "lien": "Installation/index.html#les-mouettes"
+    },
+    {
+    "image": "Installation/assets/2.jpg",
+    "titre": "Je me souviendrai du bruit des vagues",
+    "description": "Réalisation avec Léna Kalisa. Deux télévisions cathodiques avec vidéos (2 min et 4 min), extrait de texte mis en page réalisé avec IA et arrêt sur image d’un GIF.",
+    "date": "",
+    "technique": "Installation vidéo",
+    "lien": "Installation/index.html#bruit-des-vagues"
+    },
+    {
+    "image": "Installation/assets/2 bis.jpg",
+    "titre": "Je me souviendrai du bruit des vagues",
+    "description": "Réalisation avec Léna Kalisa. Deux télévisions cathodiques avec vidéos (2 min et 4 min), extrait de texte mis en page réalisé avec IA et arrêt sur image d’un GIF.",
+    "date": "",
+    "technique": "Installation vidéo",
+    "lien": "Installation/index.html#bruit-des-vagues"
+    },
+    {
+    "image": "Installation/assets/2 bis bis .png",
+    "titre": "Je me souviendrai du bruit des vagues",
+    "description": "Réalisation avec Léna Kalisa. Deux télévisions cathodiques avec vidéos (2 min et 4 min), extrait de texte mis en page réalisé avec IA et arrêt sur image d’un GIF.",
+    "date": "",
+    "technique": "Installation vidéo",
+    "lien": "Installation/index.html#bruit-des-vagues"
+    },
+    {
+    "image": "Installation/assets/2 bis. is bis .png",
+    "titre": "Je me souviendrai du bruit des vagues",
+    "description": "Réalisation avec Léna Kalisa. Deux télévisions cathodiques avec vidéos (2 min et 4 min), extrait de texte mis en page réalisé avec IA et arrêt sur image d’un GIF.",
+    "date": "",
+    "technique": "Installation vidéo",
+    "lien": "Installation/index.html#bruit-des-vagues"
+    },
+    {
+    "image": "Installation/assets/4.jpg",
+    "titre": "Le corps suspendu",
+    "description": "Robe en tissu avec marques d’encre noires et spot lumineux, dimensions variables. 2021",
+    "date": "2021",
+    "technique": "Installation",
+    "lien": "Installation/index.html#corps-suspendu"
+    },
+    {
+    "image": "Installation/assets/5.jpg",
+    "titre": "L’empreinte d’Élisa",
+    "description": "Tissu blanc avec marques d’encre noires et télévisions cathodiques, 2 × 1,50 m (5 min). 2022",
+    "date": "2022",
+    "technique": "Installation vidéo",
+    "lien": "Installation/index.html#empreinte-elisa"
+    },
+    {
+    "image": "Dessin/assets/1.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/2.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/3.png",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/4.png",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/5.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/6.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/7.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/8.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/9.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/10.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/11.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/12.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/13.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/14.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/15.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/16.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    },
+    {
+    "image": "Dessin/assets/17.jpg",
+    "titre": "Dessin",
+    "description": "",
+    "date": "",
+    "technique": "",
+    "lien": "Dessin/"
+    }
+]

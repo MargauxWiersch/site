@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation</title>
+    <link rel="icon" type="image/png" href="../logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bouton-retour">
+        <a href="../index.html">
+            <img class="bouton" src="../fleche.png" alt="Retour">
+        </a>
+    </div>
+
+    <h1>Installation</h1>
+
+    <div class="gallery">
+
+        <!-- Les mouettes -->
+        <div class="projet" id="les-mouettes">
+
+            <div class="row-1">
+                <img src="assets/1.jpg" onclick="openLightbox(this)" alt="Les mouettes">
+                <img src="assets/1 bis.jpg" onclick="openLightbox(this)" alt="Les mouettes">
+            </div>
+
+            <div class="it"><br>Les mouettes</div>
+
+            <p>
+                <br>
+                Sculpture plâtre et cartons 50 x 35 cm et vidéo projetée 35 sec. 2025
+            </p>
+
+        </div>
+
+        <div class="ptitspace"></div>
+
+        <!-- Je me souviendrai du bruit des vagues -->
+        <div class="projet" id="bruit-des-vagues">
+
+            <div class="row-2">
+                <img class="imim" src="assets/2.jpg" onclick="openLightbox(this)" alt="Je me souviendrai du bruit des vagues">
+                <img class="imim" src="assets/2 bis.jpg" onclick="openLightbox(this)" alt="Je me souviendrai du bruit des vagues">
+                <img class="imim" src="assets/2 bis bis .png" onclick="openLightbox(this)" alt="Je me souviendrai du bruit des vagues">
+                <img class="imim" src="assets/2 bis. is bis .png" onclick="openLightbox(this)" alt="Je me souviendrai du bruit des vagues">
+            </div>
+
+            <div class="it"><br>Je me souviendrai du bruit des vagues</div>
+
+            <p>
+                <br>
+                Réalisation avec Léna Kalisa.<br>
+                2 télévisions cathodiques avec vidéo (2min et 4min)<br>
+                Extrait de texte mis en page réalisé avec IA<br>
+                Arrêt sur image d’un gif
+            </p>
+
+        </div>
+
+        <div class="ptitspace"></div>
+
+        <!-- Le corps suspendu -->
+        <div class="projet" id="corps-suspendu">
+
+            <div class="row-3">
+                <img src="assets/4.jpg" onclick="openLightbox(this)" alt="Le corps suspendu">
+
+                <div class="description">
+                    <div class="it"><br>Le corps suspendu</div>
+                    <p>
+                        <br>
+                        Robe tissu avec marques encre noires et spot lumineux,
+                        dimensions variables. 2021
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ptitspace"></div>
+
+        <!-- L'empreinte d'Élisa -->
+        <div class="projet" id="empreinte-elisa">
+
+            <div class="row-3">
+                <img src="assets/5.jpg" onclick="openLightbox(this)" alt="L'empreinte d'Élisa">
+
+                <div class="description">
+                    <div class="it"><br>L’empreinte d’Élisa</div>
+                    <p>
+                        <br>
+                        Tissu blanc avec marques encre noires et télévisions
+                        cathodiques, 2 x 1,50m (5min). 2022
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ptitspace"></div>
+
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Agrandissement">
+    </div>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").classList.add("show");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").classList.remove("show");
+        }
+    </script>
+
+</body>
+</html>

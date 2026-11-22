@@ -3,14 +3,6 @@
     src : url('../Fonts/bbb-sprat-main/BBBSprat-ExtendedRegular.woff2');
 }
 
-.ordi{
-    display: block;
-}
-
-.handy{
-    display: none;
-}
-
 body {
     background-color: #FBFCFA;
     font-family: 'BBB';
@@ -101,17 +93,8 @@ p {
 }
 
 @media (max-width: 768px) {
-
     body {
         display: flex;
-    }
-
-    .ordi{
-        display: none;
-    }
-
-    .handy{
-        display: block;
     }
 
     h1 {
@@ -134,9 +117,7 @@ p {
         flex-direction: column;
     }
 
-
     .gallery img{
         width: 70%;
     }
-
 }
