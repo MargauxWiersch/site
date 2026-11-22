@@ -313,6 +313,7 @@ a {
         width: 100%;
         padding: 1em 1.5em 2em;
         margin: 0;
+        text-align: center;
     }
 
     .infos h2 {
@@ -330,10 +331,6 @@ a {
         max-width: 100%;
         max-height: 25vh;
         object-fit: contain;
-    }
-
-    #lien-projet {
-        font-size: 0.85em;
     }
 
     /* CARROUSEL */
