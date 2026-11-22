@@ -104,19 +104,14 @@ function afficherInfos(i) {
 
     titre.textContent = projet.titre;
     description.textContent = projet.description;
-    date.textContent = projet.date;
-    technique.textContent = projet.technique;
+    // date.textContent = projet.date;
+    // technique.textContent = projet.technique;
 
     // Afficher l'image dans la partie gauche
     imageProjet.src = projet.image;
     imageProjet.alt = projet.titre;
 
-    if (projet.lien) {
-        lienProjet.href = projet.lien;
-        lienProjet.style.display = "inline-block";
-    } else {
-        lienProjet.style.display = "none";
-    }
+
 
     indexSelection = i;
 
