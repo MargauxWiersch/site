@@ -147,14 +147,13 @@ a {
 /* INFORMATIONS À GAUCHE */
 
 .pres {
-    width: 45%;
-    padding: 12em;
-    margin-left: 2em;
+    width: 50%;
+    padding: 6em;
     box-sizing: border-box;
 }
 
 .infos h2 {
-    font-size: 2.5em;
+    font-size: 1.9em;
     margin-bottom: 1em;
 }
 
@@ -166,7 +165,7 @@ a {
 /* CARROUSEL À DROITE */
 
 .carrousel {
-    width: 55%;
+    width: 50%;
     height: 100vh;
     display: flex;
     justify-content: flex-end;
@@ -317,15 +316,13 @@ a {
     }
 
     .infos h2 {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-bottom: 0.8em;
         text-align: center;
     }
 
     .infos p {
-        font-size: 0.85em;
-        line-height: 1.5;
-        text-align: center;
+        display: block;
     }
 
     #image {

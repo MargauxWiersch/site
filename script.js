@@ -111,8 +111,6 @@ function afficherInfos(i) {
     imageProjet.src = projet.image;
     imageProjet.alt = projet.titre;
 
-
-
     indexSelection = i;
 
     actualiserSelection();
