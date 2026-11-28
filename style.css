@@ -310,7 +310,7 @@ a {
     /* INFORMATIONS */
 
     .pres {
-        display: block;
+        display: none;
         width: 100%;
         padding: 1em 1.5em 2em;
         margin: 0;
@@ -324,7 +324,7 @@ a {
     }
 
     .infos p {
-        display: block;
+        display: none;
     }
 
     #image {
