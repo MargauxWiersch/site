@@ -7,6 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+function openLightbox(img) {
+    document.getElementById("lightbox-img").src = img.src;
+    document.getElementById("lightbox").classList.add("show");
+}
+
+function closeLightbox() {
+    document.getElementById("lightbox").classList.remove("show");
+}
+
 const track = document.getElementById("carrousel-track");
 
 const titre = document.getElementById("titre-projet");
