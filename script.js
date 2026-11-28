@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function openLightbox(img) {
-    document.getElementById("lightbox-img").src = img.src;
+    document.getElementById("lightbox-img").src = img;
     document.getElementById("lightbox").classList.add("show");
 }
 
