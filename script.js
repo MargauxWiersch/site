@@ -67,7 +67,7 @@ function afficherProjets() {
         carte.type = "button";
 
         carte.innerHTML = `
-            <img src="${projet.image}" alt="${projet.titre}">
+            <img src="${projet.image}" alt="${projet.titre}" onclick="openLightbox(this)">
         `;
 
         carte.addEventListener("click", () => {
