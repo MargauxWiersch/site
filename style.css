@@ -311,20 +311,6 @@ a {
 
     .pres {
         display: none;
-        width: 100%;
-        padding: 1em 1.5em 2em;
-        margin: 0;
-        text-align: center;
-    }
-
-    .infos h2 {
-        font-size: 1em;
-        margin-bottom: 0.8em;
-        text-align: center;
-    }
-
-    .infos p {
-        display: none;
     }
 
     #image {
@@ -345,7 +331,7 @@ a {
 
     .carrousel-window {
         width: 100%;
-        height: 50vh;
+        height: 80vh;
     }
 
     .carrousel-track {
