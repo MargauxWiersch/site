@@ -215,6 +215,10 @@ a {
     object-fit: contain;
 }
 
+.lightbox {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
 
